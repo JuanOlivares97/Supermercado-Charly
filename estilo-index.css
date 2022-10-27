@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap");
+* {
+  font-family: "DM Serif Display", serif;
+}
+.nav-contacto {
+  background-color: #a0d2f3;
+  color: white;
+}
+nav {
+  background-color: #84b6f4;
+}
+.logo {
+  height: 100px;
+  width: auto;
+}
+.input-group {
+  padding-top: 15px;
+}
+a {
+  text-decoration: none;
+  color: white;
+  font-size: large;
+}
+.menu-child {
+  border-bottom: solid transparent 5px;
+}
+.menu-child:hover {
+  border-bottom: solid white 5px;
+}
+.menu {
+  padding-bottom: 50px;
+  background-color: #84b6f4;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  height: 100%;
+}
+.card-group {
+  width: 90%;
+}
+footer {
+  background-color: #84b6f4;
+}
+li {
+  list-style: none;
+}
+.footer {
+  padding: 20px;
+  margin-top: 10px;
+}
+.img-producto {
+  width: 250px;
+  height: 250px;
+}
+.img-categoria {
+  width: 250px;
+  height: 250px;
+}
+h1 {
+  -webkit-animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.61, 0.355, 1)
+    2s both;
+  animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.61, 0.355, 1) 2s both;
+  animation-name: tracking-in-expand;
+  margin: 10px;
+}
+@-webkit-keyframes tracking-in-expand {
+  0% {
+    letter-spacing: -0.5em;
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes tracking-in-expand {
+  0% {
+    letter-spacing: -0.5em;
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.card-group{
+  margin: auto;
+}
+
+#img-car{
+  width: 1980px;
+  height: auto;
+}
+
+
